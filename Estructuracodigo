@@ -1,0 +1,11 @@
+proyecto-web/
+│── index.html
+│
+├── assets/
+│     ├── styles.css
+│     └── script.js
+│
+└── pages/
+      ├── arquitectura.html
+      ├── marcas.html
+      └── css3.html

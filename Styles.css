@@ -1,0 +1,57 @@
+body {
+            background-color: white;
+        }
+    
+        p {
+            color: black;
+            font-size: 18px;
+        }
+        body {
+    font-family: Arial, sans-serif;
+    background: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #463861;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Animación CSS3 */
+.animacion {
+    width: 120px;
+    height: 120px;
+    background: rgb(210, 191, 233);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: giro 3s infinite linear;
+    border-radius: 10px;
+}
+
+@keyframes giro {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
